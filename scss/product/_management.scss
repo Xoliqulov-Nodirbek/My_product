@@ -1,0 +1,161 @@
+.management__inner{
+    margin-top: 170px;
+    background-image: url('../../images/bg-management.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: right center;
+}
+
+.management__img{
+    display: none;
+}
+
+.management__left{
+    width: 45%;
+}
+
+.management__title{
+    padding: 20px 0 0 0;
+}
+
+.management__title-blockquote{
+    margin: 0;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    color: #22343D;
+}
+
+.management__title-heading{
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 48px;
+    color: #22343D;
+    margin: 8px 0 0 0;
+}
+
+.management__title-text{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #22343D;
+    margin: 23px 0 30px 0;
+}
+
+.content__one-title{
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 26px;
+    color: #22343D;
+    margin: 0;
+}
+
+.content__one-text{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #22343D;
+    margin: 12px 0 25px 0;
+}
+
+.content__two-title{
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 26px;
+    margin: 0;
+    color: #22343D;
+}
+
+.content__two-text{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #22343D;
+    margin: 0;
+    padding: 12px 0 38px 0;
+}
+
+
+// ---------- Responsive-part in Section__3 --------------
+
+
+@media only screen and (max-width: 992px){
+
+    .management__inner{
+        margin-top: 95px;
+        background-image: none;
+    }
+
+    .management__img{
+        display: block;
+        margin: 0 auto 50px auto;
+
+    }
+    
+    .management__left{
+        width: 100%;
+        padding: 0px 10px;
+    }
+    
+    .management__title{
+        padding: 20px 0 0 0;
+    }
+    
+    .management__title-blockquote{
+        margin: 0;
+        font-weight: 600;
+        font-size: 16px;
+        line-height: 24px;
+        color: #22343D;
+    }
+    
+    .management__title-heading{
+        font-weight: 700;
+        font-size: 32px;
+        line-height: 48px;
+        color: #22343D;
+        margin: 8px 0 0 0;
+    }
+    
+    .management__title-text{
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 26px;
+        color: #22343D;
+        margin: 23px 0 30px 0;
+    }
+    
+    .content__one-title{
+        font-weight: 600;
+        font-size: 16px;
+        line-height: 26px;
+        color: #22343D;
+        margin: 0;
+    }
+    
+    .content__one-text{
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 26px;
+        color: #22343D;
+        margin: 12px 0 25px 0;
+    }
+    
+    .content__two-title{
+        font-weight: 600;
+        font-size: 16px;
+        line-height: 26px;
+        margin: 0;
+        color: #22343D;
+    }
+    
+    .content__two-text{
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 26px;
+        color: #22343D;
+        margin: 0;
+        padding: 12px 0 0 0;
+    }
+
+}

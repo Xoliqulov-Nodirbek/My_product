@@ -1,0 +1,379 @@
+.pricing__inner{
+    margin-top: 130px;
+}
+
+// ------ > Pricing__top
+
+.pricing__title{
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 36px;
+    color: #22343D;
+    text-align: center;
+    margin: 0;
+}
+
+.pricing__heading{
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 60px;
+    text-align: center;
+    color: #22343D;
+    text-align: center;
+    margin: 32px 0 16px 0;
+}
+
+.pricing__text{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    color: #22343D;
+    text-align: center;
+}
+
+// -------- > Pricing__cards
+
+.pricing__cards{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+
+// ----------------> Card__1 
+
+.pricing__card1{
+    width: 30%;
+    background: #FFFFFF;
+    box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.25);
+    border-radius: 8px;
+    padding: 24px 0 32px 0;
+}
+
+.pricing__card1-heading{
+    margin: 0;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 40px;
+    color: #22343D;
+    text-align: center;
+}
+
+.pricing__card1-text{
+    margin: 8px 0 16px 0;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 40px;
+    color: #22343D;
+    text-align: center;
+}
+
+.pricing__card1-box{
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    margin-bottom: 40px;
+}
+
+.pricing__card1-box--img{
+    width: 50px;
+    margin-right: 8px;
+}
+
+.pricing__card1-box--text{
+    position: relative;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    letter-spacing: 0.1px;
+    color: #AFAFAF;
+    
+    &::before{
+        position: absolute;
+        content: "";
+        width: 16px;
+        height: 29px;
+        background-image: url("../../images/$1.svg");
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-position: center center;
+        top: -35px;
+        left: 0;
+    }
+}
+
+.pricing__card1-list{
+    margin: 0 0 38px 0;
+    padding: 0;
+}
+
+.pricing__card1-item{
+    margin: 0;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 22px;
+    letter-spacing: 0.2px;
+    color: #22343D;
+    text-align: center;
+}
+
+.pricing__card1-link{
+    display: flex;
+    justify-content: center;
+}
+
+.pricing__card1-link--a{
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 22px;
+    background: #02897A;
+    border-radius: 8px;
+    color: #FFFFFF;
+    padding: 10px 20px;
+}
+
+.pricing__card1-item:not(:first-child){
+    margin-top: 16px;
+}
+
+// -------------> Card__2
+
+.pricing__card2{
+    width: 30%;
+    background: #02897A;
+    box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.25);
+    border-radius: 8px;
+    padding: 24px 0 32px 0;
+}
+
+
+.pricing__card2-heading{
+    margin: 0;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 40px;
+    color: #ffffff;
+    text-align: center;
+}
+
+.pricing__card2-text{
+    margin: 8px 0 16px 0;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 40px;
+    color: #ffffff;
+    text-align: center;
+}
+
+.pricing__card2-box{
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    margin-bottom: 40px;
+}
+
+.pricing__card2-box--img{
+    width: 50px;
+    margin-right: 8px;
+}
+
+.pricing__card2-box--text{
+    position: relative;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    letter-spacing: 0.1px;
+    color: #ffffff;
+    
+    &::before{
+        position: absolute;
+        content: "";
+        width: 16px;
+        height: 29px;
+        background-image: url("../../images/$2.svg");
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-position: center center;
+        top: -35px;
+        left: 0;
+    }
+}
+
+.pricing__card2-list{
+    margin: 0 0 38px 0;
+    padding: 0;
+}
+
+.pricing__card2-item{
+    margin: 0;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 22px;
+    letter-spacing: 0.2px;
+    color: #ffffff;
+    text-align: center;
+}
+
+.pricing__card2-link{
+    display: flex;
+    justify-content: center;
+}
+
+.pricing__card2-link--a{
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 22px;
+    background: #ffffff;
+    border-radius: 8px;
+    color: #02897A;
+    padding: 10px 20px;
+}
+
+.pricing__card2-item:not(:first-child){
+    margin-top: 16px;
+}
+
+// ----------------> Card__1 
+
+.pricing__card3{
+    width: 30%;
+    background: #FFFFFF;
+    box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.25);
+    border-radius: 8px;
+    padding: 24px 0 32px 0;
+}
+
+.pricing__card3-heading{
+    margin: 0;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 40px;
+    color: #22343D;
+    text-align: center;
+}
+
+.pricing__card3-text{
+    margin: 8px 0 16px 0;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 40px;
+    color: #22343D;
+    text-align: center;
+}
+
+.pricing__card3-box{
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    margin-bottom: 40px;
+}
+
+.pricing__card3-box--img{
+    width: 80px;
+    height: 70px;
+    margin-right: 8px;
+}
+
+.pricing__card3-box--text{
+    position: relative;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    letter-spacing: 0.1px;
+    color: #AFAFAF;
+    
+    &::before{
+        position: absolute;
+        content: "";
+        width: 16px;
+        height: 29px;
+        background-image: url("../../images/$1.svg");
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-position: center center;
+        top: -35px;
+        left: 0;
+    }
+}
+
+.pricing__card3-list{
+    margin: 0 0 38px 0;
+    padding: 0;
+}
+
+.pricing__card3-item{
+    margin: 0;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 22px;
+    letter-spacing: 0.2px;
+    color: #22343D;
+    text-align: center;
+}
+
+.pricing__card3-link{
+    display: flex;
+    justify-content: center;
+}
+
+.pricing__card3-link--a{
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 22px;
+    background: #02897A;
+    border-radius: 8px;
+    color: #FFFFFF;
+    padding: 10px 20px;
+}
+
+.pricing__card3-item:not(:first-child){
+    margin-top: 16px;
+}
+
+
+// --------------- Responsive part in Section__8 ----------------
+
+
+@media only screen and (max-width: 990px){
+
+    .pricing__top{
+        width: 80%;
+        margin: 0 auto;
+    }
+
+    .pricing__heading{
+        margin: 30px 0 18px 0;
+    }
+
+}
+
+@media only screen and (max-width: 660px){
+
+    .pricing__top{
+        width: 100%;
+    }
+
+    .pricing__heading{
+        margin: 30px 0 18px 0;
+    }
+
+    .pricing__cards{
+        flex-direction: column;
+    }
+
+    .pricing__card1{
+        width: 85%;
+    }
+
+    .pricing__card2{
+        width: 85%;
+        margin-top: 32px;
+    }
+
+    .pricing__card3{
+        width: 85%;
+        margin-top: 32px;
+    }
+
+}

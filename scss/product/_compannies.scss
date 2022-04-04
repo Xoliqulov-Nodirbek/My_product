@@ -1,0 +1,68 @@
+.compannies{
+    max-width: 970px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.compannies__inner{
+    background: #02897A;
+    border-radius: 32px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.compannies__content{
+    width: 55%;
+    padding: 50px 0 56px 50px;
+}
+
+.compannies__content-heading{
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 151.4%;
+    color: #FFFFFF;
+    margin: 0 0 60px 0;
+}
+
+.compannies__content-link{
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 30px;
+    padding: 10px 35px;
+    background-color: #FFFFFF;
+    color: #02897A;
+    border-radius: 8px;
+}
+
+.compannies__img{
+    width: 45%;
+}
+
+
+// ------------ Responsive part Section__10 -------------
+
+
+@media only screen and (max-width: 660px){
+
+    .compannies{
+        width: 100%;
+    }
+    
+    .compannies__inner{
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    
+    .compannies__content{
+        width: 95%;
+        padding: 20px;
+        text-align: center;
+        margin-bottom: 42px;
+    }
+    
+    .compannies__img{
+        width: 100%;
+    }
+
+}

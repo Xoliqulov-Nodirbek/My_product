@@ -1,0 +1,245 @@
+.latest__inner{
+    margin-top: 65px;
+}
+
+.latest__title-heading{
+    margin: 0;
+    font-weight: 700;
+    font-size: 34px;
+    line-height: 51px;
+    color: #22343D;
+    text-align: center;
+}
+
+.latest__title-text{
+    margin: 8px 0 32px 0;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 26px;
+    color: #22343D;
+    text-align: center;
+}
+
+.latest-top{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.latest-top__card{
+    width: 31% !important;
+    height: auto;
+    background: #FFFFFF;
+    border-radius: 8px;
+    border: 2px solid rgb(212, 210, 210);
+    margin: 0 10px !important;
+}
+
+.latest-top__card-img{
+    width: 100%;
+    border-radius: 8px 8px 0 0;
+}
+
+.latest-top__card-text{
+    width: 90%;
+    text-align: start;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    color: #22343D;
+    padding-left: 25px;
+    margin: 24px 0 12px 0;
+}
+
+.latest-top__card-span{
+    font-weight: 700;
+}
+
+.latest-top__card-heading{
+    width: 100%;
+    text-align: start;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 40px;
+    color: #22343D;
+    padding-left: 25px;
+    margin: 0 0 40px 0;
+}
+
+// --------- Bottom ----------
+
+.latest-bottom{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 32px;
+}
+
+.latest-bottom__card{
+    width: 31% !important;
+    height: auto;
+    background: #FFFFFF;
+    border-radius: 8px;
+    border: 2px solid rgb(212, 210, 210);
+    margin: 0 10px !important;
+}
+
+.latest-bottom__card-img{
+    width: 100%;
+    border-radius: 8px 8px 0 0;
+}
+
+.latest-bottom__card-text{
+    width: 90%;
+    text-align: start;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    color: #22343D;
+    padding-left: 25px;
+    margin: 24px 0 12px 0;
+}
+
+.latest-bottom__card-span{
+    font-weight: 700;
+}
+
+.latest-bottom__card-heading{
+    width: 100%;
+    text-align: start;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 40px;
+    color: #22343D;
+    padding-left: 25px;
+    margin: 0 0 40px 0;
+}
+
+// ---------- Link -----------
+
+.latest__link{
+    width: 112px;
+    margin: 32px auto 0 auto;
+}
+
+.latest__link-a{
+    position: relative;
+    display: inline-block;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 26px;
+    color: #22343D;
+
+    &::after{
+        content: "";
+        position: absolute;
+        width: 20px;
+        height: 20px;
+        top: 4px;
+        right: -30px;
+        background-image: url("../../images/latest-link-icon.svg");
+        background-repeat: no-repeat;
+        background-size: contain;
+    }
+}
+
+
+// ---------------- Responsive-part in Section__6 -------------
+
+
+@media only screen and (max-width: 992px){
+    
+    .latest__title-text{
+        margin: 8px 0 18px 0;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 26px;
+        color: #22343D;
+        text-align: center;
+    }
+
+    .latest-top{
+        flex-direction: column;
+    }
+    
+    .latest-top__card{
+        width: 60% !important;
+        background: #FFFFFF;
+        margin-top: 32px !important;
+    }
+    
+    .latest-top__card-text{
+        width: 90%;
+    }
+    
+    .latest-bottom{
+        flex-direction: column;
+    }
+    
+    .latest-bottom__card{
+        width: 60% !important;
+        background: #FFFFFF;
+    }
+
+    .latest-bottom__card:not(:first-child){
+        margin-top: 32px !important;
+    }
+    
+    .latest-bottom__card-text{
+        width: 90%;
+    }
+    
+}
+
+
+@media only screen and (max-width: 660px){
+    
+    .latest__inner{
+        margin-top: 45px;
+    }
+    
+    .latest__title-heading{
+        font-size: 32px;
+        line-height: 48px;
+    }
+    
+    .latest__title-text{
+        width: 95%;
+        margin: 16px 0 30px 0;
+    }
+    
+    .latest-top__card{
+        width: 85% !important;
+        background: #FFFFFF;
+        margin-top: 20px !important;
+    }
+    
+    .latest-top__card-text{
+        width: 90%;
+    }
+    
+    .latest-bottom__title-text{
+        width: 100%;
+    }
+    
+    .latest-bottom__card{
+        width: 85% !important;
+        background: #FFFFFF;
+        margin-top: 0;
+    }
+
+    .latest-bottom__card:not(:first-child){
+        margin-top: 32px !important;
+    }
+    
+    .latest-bottom__card-text{
+        width: 90%;
+    }
+
+    .latest__link{
+        margin: 50px auto 0 auto;
+    }
+    
+}

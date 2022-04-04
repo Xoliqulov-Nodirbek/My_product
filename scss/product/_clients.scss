@@ -1,0 +1,158 @@
+.clients__inner{
+    padding: 150px 0;
+}
+
+.clients__title{
+    width: 49%;
+    margin: 0 auto;
+}
+
+.clients__title-heading{
+    margin: 0;
+    font-weight: 700;
+    font-size: 34px;
+    line-height: 57px;
+    letter-spacing: 0.2px;
+    color: #22343D;
+    text-align: center;
+}
+
+.clients__title-text{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 28px;
+    letter-spacing: 0.2px;
+    color: #22343D;
+    text-align: center;
+    margin: 8px 0 50px 0;
+}
+
+.clients__disegners{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.clients__disegner{
+    width: 30%;
+    padding: 25px;
+    background: #FFFFFF;
+    border: 1px solid #DEDEDE;
+    box-sizing: border-box;
+    border-radius: 5px;
+}
+
+.clients__disegner-img{
+    width: 106.5px;
+    height: 18.3px;
+}
+
+.clients__disegner-text{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    letter-spacing: 0.2px;
+    color: #737373;
+    margin: 16px 0;
+}
+
+.clients__disegner-user1{
+    position: relative;
+    padding-left: 64px;
+
+    &::before{
+        position: absolute;
+        content: "";
+        width: 50px;
+        height: 50px;
+        background-image: url("../../images/client1.png");
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-position: center center;
+        left: 0;
+        top: 0;
+    }
+}
+
+.clients__disegner-user2{
+    position: relative;
+    padding-left: 64px;
+
+    &::before{
+        position: absolute;
+        content: "";
+        width: 50px;
+        height: 50px;
+        background-image: url("../../images/client2.png");
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-position: center center;
+        left: 0;
+        top: 0;
+    }
+}
+
+.clients__disegner-user3{
+    position: relative;
+    padding-left: 64px;
+
+    &::before{
+        position: absolute;
+        content: "";
+        width: 50px;
+        height: 50px;
+        background-image: url("../../images/client3.png");
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-position: center center;
+        left: 0;
+        top: 0;
+    }
+}
+
+.clients__disegner-user--heading{
+    margin: 0;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.2px;
+    color: #02897A;
+}
+
+.clients__disegner-user--job{
+    margin: 0;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.2px;
+    color: #252B42;
+}
+
+
+// --------------- Responsive part Section__9 ---------------
+
+
+@media only screen and (max-width: 710px){
+
+    .clients__inner{
+        padding: 100px 0;
+    }
+    
+    .clients__title{
+        width: 95%;
+        margin: 0 auto;
+    }
+
+    .clients__disegners{
+        flex-direction: column;
+    }
+
+    .clients__disegner{
+        width: 85%;
+    }
+
+    .clients__disegner:not(:first-child){
+        margin-top: 32px;
+    }
+
+}

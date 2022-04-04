@@ -1,0 +1,243 @@
+.work__inner{
+    padding: 100px 0 115px 0;
+}
+
+.work__title-heading{
+    font-weight: 700;
+    font-size: 34px;
+    line-height: 51px;
+    text-align: center;
+    color: #22343D;
+    margin: 0;
+}
+
+// -------- > Step__one
+
+.work__step1{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 75px;
+}
+
+.work__step1-img{
+    width: 50%;
+}
+
+.work__step1-content{
+    width: 40%;
+}
+
+.work__step1-content--strong{
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+    text-align: center;
+    color: #22343D;
+    margin: 0;
+}
+
+.work__step1-content--heading{
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 36px;
+    margin: 16px 0;
+    color: #22343D;
+}
+
+.work__step1-content--text{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    color: #22343D;
+}
+
+// -------- > Step__two
+
+.work__step2{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 100px;
+}
+
+.work__step2-img--mobile{
+    display: none;
+}
+
+.work__step2-img{
+    width: 50%;
+}
+
+.work__step2-content{
+    width: 40%;
+}
+
+.work__step2-content--strong{
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+    text-align: center;
+    color: #22343D;
+    margin: 0;
+}
+
+.work__step2-content--heading{
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 36px;
+    margin: 16px 0;
+    color: #22343D;
+}
+
+.work__step2-content--text{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    color: #22343D;
+}
+
+// -------- > Step__three
+
+.work__step3{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 100px;
+}
+
+.work__step3-img{
+    width: 50%;
+}
+
+.work__step3-content{
+    width: 40%;
+}
+
+.work__step3-content--strong{
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+    text-align: center;
+    color: #22343D;
+    margin: 0;
+}
+
+.work__step3-content--heading{
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 36px;
+    margin: 16px 0;
+    color: #22343D;
+}
+
+.work__step3-content--text{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    color: #22343D;
+}
+
+.work__link{
+    width: 224px;
+    margin: 77px auto 0 auto;
+}
+
+.work__link-a{
+    display: inline-block;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 22px;
+    background: #02897A;
+    color: #FFFFFF;
+    border-radius: 8px;
+    padding: 11px 18px;
+}
+
+
+// --------------- Responsive part Section__3 -----------------
+
+
+@media only screen and (max-width: 772px) {
+    
+    .work__inner{
+        padding: 100px 0 70px 0;
+    }
+    
+    .work__title-heading{
+        font-size: 32px;
+        line-height: 48px;
+    }
+    
+    // -------- > Step__one
+    
+    .work__step1{
+        flex-direction: column;
+        justify-content: center;
+    }
+    
+    .work__step1-img{
+        width: 95%;
+    }
+    
+    .work__step1-content{
+        width: 95%;
+        margin-top: 80px;
+    }
+    
+    // -------- > Step__two
+    
+    .work__step2{
+        flex-direction: column;
+        justify-content: center;
+        flex-wrap: wrap-reverse;
+        margin-top: 70px;
+    }
+    
+    .work__step2-img--mobile{
+        display: block;
+        width: 95%;
+    }
+    
+    .work__step2-img{
+        display: none;
+    }
+    
+    .work__step2-content{
+        width: 95%;
+        margin-top: 70px;
+    }
+
+    // -------- > Step__three
+    
+    .work__step3{
+        flex-direction: column;
+        justify-content: center;
+    }
+    
+    .work__step3-img{
+        width: 95%;
+    }
+    
+    .work__step3-content{
+        width: 95%;
+        margin-top: 80px;
+    }
+
+    .work__link{
+        width: 224px;
+        margin-top: 50px;
+    }
+    
+    .work__link-a{
+        display: inline-block;
+        font-weight: 600;
+        font-size: 18px;
+        line-height: 22px;
+        background: #02897A;
+        color: #FFFFFF;
+        border-radius: 8px;
+        padding: 11px 18px;
+    }
+    
+}

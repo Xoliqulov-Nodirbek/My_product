@@ -1,0 +1,337 @@
+.site__header{
+    border: 1px solid transparent;
+    box-shadow: 0px 1px 10px rgb(209, 202, 202);
+    background-color: #fff;
+    z-index: 1;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+.header__inner{
+    padding: 19px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+// ----- Site-logo -----
+
+.header__logo{
+    width: 163px;
+    height: 29px;
+    background-image: url("../../images/header-logo-dark.svg");
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+// ----- Site-left -----
+
+.header__left{
+    display: flex;
+    align-items: center;
+}
+
+// ----- Header-nav -----
+
+.header__nav-list{
+    display: flex;
+    margin: 0;
+    align-items: center;
+}
+
+.header__nav-item:not(:first-child){
+    margin-left: 30px;
+}
+
+.header__nav-active{
+    position: relative;
+    padding: 9px 0;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 28px;
+    color: #3f5561;
+
+    &::before{
+        content: '';
+        position: absolute;
+        width: 0;
+        height: 2px;
+        background-color: #3f5561;
+        left: 50%;
+        bottom: 0;
+        transition: all .6s ease;
+    }
+
+    &::after{
+        content: '';
+        position: absolute;
+        width: 0;
+        height: 2px;
+        background-color: #3f5561;
+        right: 50%;
+        bottom: 0;
+        transition: all .6s ease;
+    }
+}
+
+.header__nav-item:hover > .header__nav-active::before{
+    width: 50%;
+}
+
+.header__nav-item:hover > .header__nav-active::after{
+    width: 50%;
+}
+
+.header__nav-link{
+    position: relative;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    color: #3f5561;
+    padding: 9px 0;
+
+    &::before{
+        content: '';
+        position: absolute;
+        width: 0;
+        height: 2px;
+        background-color: #3f5561;
+        left: 50%;
+        bottom: 0;
+        transition: all .7s ease;
+    }
+
+    &::after{
+        content: '';
+        position: absolute;
+        width: 0;
+        height: 2px;
+        background-color: #3f5561;
+        right: 50%;
+        bottom: 0;
+        transition: all .7s ease;
+    }
+}
+
+.header__nav-item:hover > .header__nav-link::before{
+    width: 50%;
+}
+
+.header__nav-item:hover > .header__nav-link::after{
+    width: 50%;
+}
+
+
+// ----- Header__buttons -----
+
+.header__buttons{
+    display: flex;
+    align-items: center;
+    margin-left: 24px;
+}
+
+.header__button-one{
+    border: 1px solid #BCD0E5;
+    box-sizing: border-box;
+    cursor: pointer;
+    border-radius: 4px;
+    background: #FFFFFF;
+    color: #173A56;
+    padding: 10px 25px;
+    transition: all 0.2s ease;
+    
+    &:hover{
+        background-color: #02897A;
+        color: #fff;
+    }
+}
+
+.header__button-two{
+    background: #02897A;
+    border: 1px solid #02897A;
+    cursor: pointer;
+    color: #fff;
+    box-sizing: border-box;
+    border-radius: 4px;
+    padding: 10px 25px;
+    margin: 0 24px;
+    transition: all 0.2s ease;
+    
+    &:hover{
+        background-color: #fff;
+        color: #173A56;
+    }
+}
+
+.header__button-three{
+    padding: 6px;
+    border: none;
+    border-radius: 50%;
+    background: #F3F3F3;
+    cursor: pointer;
+    
+    &:hover{
+        background-color: #e9e9e9;
+    }
+}
+
+// --> Dark mode btn
+
+.header__button-img{
+    width: 20px;
+    height: 20px;
+}
+
+// ------ Header__menu --------
+
+.header__menu{
+    display: none;
+    width: 28px;
+    height: 30px;
+    background-image: url("../../images/menu.svg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    border: none;
+    background-color: transparent;
+}
+
+
+// --------- Responsive-part in header ----------
+
+
+@media only screen and (max-width: 950px){
+    
+    
+    .header__inner{
+        padding: 25px 0;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    
+    // ----- Site-logo -----
+    
+    .header__logo-img{
+        width: 163px;
+        height: 29px;
+    }
+    
+    // ----- Site-left -----
+    
+    .header__left{
+        display: flex;
+        align-items: center;
+    }
+    
+    // ----- Header-nav -----
+    
+    .header__nav-list{
+        display: flex;
+    }
+    
+    .header__nav-item:not(:first-child){
+        margin-left: 30px;
+    }
+    
+    .header__nav-active{
+        font-weight: 600;
+        font-size: 15px;
+        line-height: 25px;
+        color: #3f5561;
+    }
+    
+    .header__nav-link{
+        font-weight: 400;
+        font-size: 15px;
+        line-height: 25px;
+        color: #3f5561;
+    }
+    
+    .header__buttons{
+        display: none;
+    }
+    
+}
+
+@media only screen and (max-width: 630px){
+    
+    .site__header{
+        background: #FFFFFF;
+        box-shadow: 0px -2px 8px rgba(0, 0, 0, 0.25);
+    }
+    
+    .header__inner{
+        position: relative;
+        padding: 26px 0;
+    }
+
+    .header__inner-open > .header__left{
+        display: block;
+    } 
+    
+    .header__left{
+        display: none;
+        position: absolute;
+        flex-direction: column;
+        width: 100%;
+        height: 80vh;
+        top: 82px;
+        right: 0px;
+        text-align: center;
+        background-color: #727259;
+        padding: 20px 30px;
+        border-bottom-left-radius: 100px;
+    }
+    
+    // ----- Header-nav -----
+    
+    .header__nav-list{
+        flex-direction: column;
+        padding: 0;
+        margin-bottom: 30px !important;
+    }
+    
+    .header__nav-item:not(:first-child){
+        margin: 20px 0 0 0;
+    }
+    
+    .header__nav-active{
+        font-weight: 600;
+        font-size: 22px;
+        line-height: 30px;
+        color: #ffffff;
+    }
+    
+    .header__nav-link{
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 30px;
+        color: #ffffff;
+    }
+
+    .header__buttons{
+        display: block;
+        flex-direction: column;
+        margin-left: 0;
+    }
+
+    .header__button-one{
+        margin-top: 20px !important;
+    }
+
+    .header__button-two{
+        margin: 20px 10px;
+    }
+
+    .header__button-three{
+        margin-top: 30px;
+    }
+    
+    .header__menu{
+        display: block;
+        border: none;
+        background-color: transparent;
+    }
+    
+}

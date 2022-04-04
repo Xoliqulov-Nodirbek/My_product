@@ -1,0 +1,279 @@
+.body__dark{
+    background-color: #1f2e35;
+    transition: all .5s ease;
+    
+    // ----- Header part -----
+    
+    & .site__header{
+        background: #1F2E35;
+        transition: all .5s ease;        
+        box-shadow: none;
+    }
+    
+    & .header__logo {
+        background-image: url("../../images/header-logo-white.svg");
+    }
+    
+    // ----- Header-nav ------
+    
+    & .header__nav-active{
+        color: #fff;
+    }
+    
+    .header__nav-active{
+        
+        &::before{
+            background-color: #ffffff;
+        }
+        
+        &::after{
+            background-color: #ffffff;
+        }
+    }
+    
+    & .header__nav-link{
+        color: #fff;
+    }
+    
+    .header__nav-link{
+        
+        &::before{
+            background-color: #ffffff;
+        }
+        
+        &::after{
+            background-color: #ffffff;
+        }
+    }
+    
+    // ----- Header-buttons
+    
+    & .header__button-one{
+        background: #1F2E35;
+        color: #fff;
+        
+        &:hover{
+            background-color: #02897A;
+        }
+    }
+    
+    & .header__menu{
+        background-image: url("../../images/menu-white.svg");
+    }
+    
+    
+    // --------------- Section__1 ----------------
+    
+    
+    & .hero__content-title{
+        color: #fff;
+    }
+    
+    & .hero__content-text{
+        color: #fff;
+    }
+    
+    
+    // ----------------- Section__2 -----------------
+    
+    
+    & .specifically{
+        background-image: url('../../images/bg-spec-dark.png');
+        width: 100%;
+    }
+    
+    & .specifically__tests-one:hover::before,
+    & .specifically__tests-one:hover::after{
+        width: 100%;
+        height: 100%;
+        border-color: #e4e4e4;
+    }
+    
+    & .specifically__title{
+        color: #ffffff;
+    }
+    
+    & .tests__title-one{
+        color: #fff;
+    }
+    
+    & .tests__title-two{
+        color: #fff;
+    }
+    
+    & .tests__title-three{
+        color: #fff;
+    }
+    
+    & .tests__title-four{
+        color: #fff;
+    }
+    
+    & .tests__text{
+        color: #fff;
+    }
+    
+    
+    // --------------- Section__3 ----------------
+    
+    
+    & .management__title-blockquote{
+        color: #ffffff;
+    }
+    
+    & .management__title-heading{
+        color: #ffffff;
+    }
+    
+    & .management__title-text{
+        color: #ffffff;
+    }
+    
+    & .content__one-title{
+        color: #ffffff;
+    }
+    
+    & .content__one-text{
+        color: #ffffff;
+    }
+    
+    & .content__two-title{
+        color: #ffffff;
+    }
+    
+    & .content__two-text{
+        color: #ffffff;
+    }
+    
+    
+    // -------------- Section__4 -------------
+    
+    
+    & .customer__content-blockquote{
+        color: #ffffff;
+    }
+    
+    & .customer__content-heading{
+        color: #ffffff;
+    }
+    
+    & .customer__content-text{
+        color: #ffffff;
+    }
+    
+    & .customer__content-before--one{
+        color: #ffffff;
+    }
+    
+    & .customer__content-before--two{
+        color: #ffffff;
+    }
+    
+    & .customer__content-before--three{
+        color: #ffffff;
+    }
+    
+    
+    // ------------ Section__5 ---------------
+    
+    
+    
+    & .collaborative__title-blockquote{
+        color: #ffffff;
+    }
+    
+    & .collaborative__title-heading{
+        color: #ffffff;
+    }
+    
+    & .collaborative__title-text{
+        color: #ffffff;
+    }
+    
+    
+    // -------------- Section__6 ------------
+    
+    
+    & .process{
+        background-image: url('../../images/bg-process-dark.png');
+    }
+    
+    & .process__title-heading{
+        color: #ffffff;
+    }
+    
+    & .process__title-text{
+        color: #ffffff;
+    }
+    
+    
+    // -------------- Section__7 ---------------
+    
+    
+    & .contents__title-heading{
+        color: #ffffff;
+    }
+    
+    & .contents__title-text{
+        color: #ffffff;
+    }
+    
+    
+    // ------------- Section__8 ---------------
+    
+    
+    & .table__title-heading{
+        color: #ffffff;
+    }
+    
+    & .table__title-text{
+        color: #ffffff;
+    }
+    
+    
+    // -------------- Section__9 --------------
+    
+    
+    & .clients__title-heading{
+        color: #ffffff;
+    }
+    
+    & .clients__title-text{
+        color: #ffffff;
+    }
+    
+    
+    // -------------- Footer --------------
+    
+    
+    // ----------- >  footer__one
+    
+    & .footer__two-title{
+        color: #ffffff;
+    }
+    
+    & .footer__two-link{
+        color: #ffffff;
+    }
+    
+    // ----------- > footer__two
+    
+    & .footer__three-title{
+        color: #ffffff;
+    }
+    
+    & .footer__three-link{
+        color: #ffffff;
+    }
+    
+    // ----------- > footer__four
+    
+    & .footer__one-logo{
+        background-image: url("../../images/header-logo-white.svg");
+    }
+    
+    & .footer__four-title{
+        color: #ffffff;
+    }
+    
+}

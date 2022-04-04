@@ -1,0 +1,155 @@
+.alongside__inner{
+    margin-top: 150px;
+}
+
+.alongside__heading{
+    font-weight: 700;
+    font-size: 34px;
+    line-height: 51px;
+    color: #22343D;
+    text-align: center;
+}
+
+.alongside__hero{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 63px;
+}
+
+.alongside__hero-img{
+    width: 48%;
+}
+
+.alongside__hero-img--mobile{
+    display: none;
+}
+
+.alongside__hero-content{
+    width: 47%;
+}
+
+.alongside__hero-content--heading1{
+    position: relative;
+    margin: 0 0 23px 0;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 36px;
+    color: #22343D;
+    padding-left: 64px;
+    
+    &::before{
+        content: "";
+        position: absolute;
+        width: 50px;
+        height: 50px;
+        background-image: url("../../images/alongside-1.svg");
+        background-repeat: no-repeat;
+        background-size: contain;
+        top: -8px;
+        left: 0;
+    }
+}
+
+.alongside__hero-content--heading2{
+    position: relative;
+    margin: 0 0 23px 0;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 36px;
+    color: #22343D;
+    padding-left: 64px;
+    
+    &::before{
+        content: "";
+        position: absolute;
+        width: 50px;
+        height: 50px;
+        background-image: url("../../images/alongside-2.svg");
+        background-repeat: no-repeat;
+        background-size: contain;
+        top: -8px;
+        left: 0;
+    }
+}
+
+.alongside__hero-content--heading3{
+    position: relative;
+    margin: 0 0 23px 0;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 36px;
+    color: #22343D;
+    padding-left: 64px;
+    
+    &::before{
+        content: "";
+        position: absolute;
+        width: 50px;
+        height: 50px;
+        background-image: url("../../images/alongside-3.svg");
+        background-repeat: no-repeat;
+        background-size: contain;
+        top: -8px;
+        left: 0;
+    }
+}
+
+.alongside__hero-content--text{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    color: #22343D;
+    margin: 0 0 40px 0;
+}
+
+
+// ------------- Responsive part Section__3 ----------------
+
+
+@media only screen and (max-width: 920px) {
+    
+    .alongside__inner{
+        margin-top: 100px;
+    }
+    
+    .alongside__heading{
+        font-size: 32px;
+        line-height: 48px;
+    }
+    
+    .alongside__hero{
+        flex-direction: column;
+        justify-content: center;
+        margin-top: 50px;
+    }
+    
+    .alongside__hero-img{
+        width: 70%;
+    }
+    
+    .alongside__hero-content{
+        width: 70%;
+        margin-top: 40px;
+    }
+    
+}
+
+@media only screen and (max-width: 700px) {
+    
+    .alongside__hero-img{
+        display: none;
+    }
+    
+    .alongside__hero-img--mobile{
+        display: block;
+        width: 95%;
+        margin: 0 auto;
+    }
+    
+    .alongside__hero-content{
+        width: 90%;
+        margin-top: 40px;
+    }
+    
+}

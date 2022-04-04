@@ -1,0 +1,169 @@
+.choose{
+    background: #F5F5F5;
+}
+
+.choose__inner{
+    padding: 24px 0 68px 0;
+}
+
+.choose__title-heading{
+    font-weight: 700;
+    font-size: 34px;
+    line-height: 51px;
+    text-align: center;
+    color: #22343D;
+    margin: 0;
+}
+
+.choose__cards{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+
+.choose__cards-one{
+    width: 30%;
+    border: 2px solid rgb(218, 218, 218);
+    border-radius: 12px;
+    padding: 32px 0 34px 0;
+    text-align: center;
+}
+
+.choose__cards-one--heading{
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 33px;
+    text-align: center;
+    letter-spacing: 0.1px;
+    color: #22343D;
+    margin: 32px 0 16px 0;
+}
+
+.choose__cards-one--text{
+    width: 85%;
+    margin: 0 auto;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 27px;
+    text-align: center;
+    letter-spacing: 0.2px;
+    color: #22343D;
+}
+
+.choose__cards-two{
+    width: 30%;
+    border: 2px solid rgb(218, 218, 218);
+    border-radius: 12px;
+    padding: 32px 0 34px 0;
+    text-align: center;
+}
+
+.choose__cards-two--heading{
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 33px;
+    text-align: center;
+    letter-spacing: 0.1px;
+    color: #22343D;
+    margin: 32px 0 16px 0;
+}
+
+.choose__cards-two--text{
+    width: 85%;
+    margin: 0 auto;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 27px;
+    text-align: center;
+    letter-spacing: 0.2px;
+    color: #22343D;
+}
+
+.choose__cards-three{
+    width: 30%;
+    border: 2px solid rgb(218, 218, 218);
+    border-radius: 12px;
+    padding: 32px 0 34px 0;
+    text-align: center;
+}
+
+.choose__cards-three--heading{
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 33px;
+    text-align: center;
+    letter-spacing: 0.1px;
+    color: #22343D;
+    margin: 32px 0 16px 0;
+}
+
+.choose__cards-three--text{
+    width: 85%;
+    margin: 0 auto;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 27px;
+    text-align: center;
+    letter-spacing: 0.2px;
+    color: #22343D;
+}
+
+
+// -------------- Responsive part in Section__2 ---------------
+
+
+@media only screen and (max-width: 992px) {
+    
+    
+    .choose__inner{
+        padding: 24px 0 60px 0;
+    }
+    
+    .choose__title-heading{
+        font-weight: 700;
+        font-size: 32px;
+        line-height: 48px;
+    }
+    
+    .choose__cards{
+        flex-direction: column;
+        justify-content: center;
+        margin-top: 50px;
+    }
+    
+    
+    .choose__cards-one{
+        width: 60%;
+        margin: 0 auto;
+    }
+    
+    .choose__cards-two{
+        width: 60%;
+        margin: 32px auto 0 auto;
+    }
+    
+    .choose__cards-three{
+        width: 60%;
+        margin: 32px auto 0 auto;
+    }
+    
+}
+
+@media only screen and (max-width: 560px) {
+ 
+    .choose__cards-one{
+        width: 95%;
+        margin: 0 auto;
+    }
+    
+    .choose__cards-two{
+        width: 95%;
+        margin: 32px auto 0 auto;
+    }
+    
+    .choose__cards-three{
+        width: 95%;
+        margin: 32px auto 0 auto;
+    }
+    
+}

@@ -1,0 +1,67 @@
+.body__dark{
+    
+    // ------ Section__1 ------
+    
+    
+    .great__content-heading{
+        color: #ffffff;
+    }
+    
+    .great__content-text{
+        color: #ffffff;
+    }
+    
+    .great__content-members{
+        color: #ffffff;
+    }
+    
+    
+    // ----- Section__2 ------
+    
+    
+    .latest__title-heading{
+        color: #ffffff;
+    }
+    
+    .latest__title-text{
+        color: #ffffff;
+    }
+    
+    .latest__link-a{
+        color: #ffffff;
+        
+        &::after{
+            background-image: url("../../images/latest-link-icon-dark.svg");
+        }
+    }
+
+
+    // ----- Section__3 ------
+
+
+    .contact__title-heading{
+        color: #ffffff;
+    }
+
+    .contact__title-text{
+        color: #ffffff;
+    }
+
+    .contact__form{
+        background: #22343D;
+        border: 1px solid #464646;
+    }
+
+    .contact__form-heading{
+        color: #FFFFFF;
+    }
+
+    .contact__form-input{
+        background: #F5F5F5;
+    }
+
+    .contact__form-textarea{
+        background: #F5F5F5;
+    }
+    
+}

@@ -1,0 +1,303 @@
+.process{
+    background-image: url('../../images/bg-process.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center top;
+}
+
+.process__inner{
+    width: 85%;
+    margin: 0 auto;
+    margin-top: 167px;
+}
+
+.process__title{
+    width: 65%;
+    margin: 0 auto;
+}
+
+.process__title-heading{
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 48px;
+    text-align: center;
+    color: #22343D;
+    padding-top: 52px;
+}
+
+.process__title-text{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 26px;
+    text-align: center;
+    color: #22343D;
+}
+
+// -------------- Top --------------
+
+.process__content-top{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 46px;
+}
+
+.process__content-top--left-text{
+    position: relative;
+    padding: 15px 25px 20px 25px;
+    margin-left: 114px;
+    background-image: url('../../images/text-bg-left.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    color: #2F281E;
+    
+    &::before{
+        content: "";
+        position: absolute;
+        width: 98px;
+        height: 98px;
+        top: -25px;
+        left: -114px;
+        background-image: url('../../images/Avator-left.png');
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-position: center center;
+    }
+}
+
+.process__content-top--right-text{
+    position: relative;
+    padding: 15px 25px 20px 25px;
+    margin-right: 157px;
+    background-image: url('../../images/text-bg-right.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    color: #2F281E;
+    
+    &::after{
+        content: "";
+        position: absolute;
+        width: 98px;
+        height: 98px;
+        top: -25px;
+        right: -117px;
+        background-image: url('../../images/Avator-right.png');
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-position: center center;
+    }
+}
+
+// ------------ Bottom ------------
+
+.process__content-bottom{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 46px;
+}
+
+.process__content-bottom--left-text{
+    position: relative;
+    padding: 15px 25px 20px 25px;
+    margin-right: 114px;
+    background-image: url('../../images/text-bg-right.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    color: #2F281E;
+    
+    &::after{
+        content: "";
+        position: absolute;
+        width: 98px;
+        height: 98px;
+        top: -25px;
+        right: -124px;
+        background-image: url('../../images/Avator-bottom-left.png');
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-position: center center;
+    }
+}
+
+.process__content-bottom--right-text{
+    position: relative;
+    padding: 15px 25px 20px 25px;
+    margin-left: 114px;
+    background-image: url('../../images/text-bg-left.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    color: #2F281E;
+    
+    &::after{
+        content: "";
+        position: absolute;
+        width: 98px;
+        height: 98px;
+        top: -25px;
+        left: -114px;
+        background-image: url('../../images/Avator-bottom-right.png');
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-position: center center;
+    }
+}
+
+.process__content-link{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.process__content-link--a{
+    display: inline-block;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    color: #FFFFFF;
+    padding: 15px 30px;
+    background: #02897A;
+    border-radius: 4px; 
+}
+
+
+// ------------ Responsive-part in Section__5 -------------
+
+
+@media only screen and (max-width: 992px){
+    
+    
+    .process__inner{
+        width: 95%;
+        margin: 0 auto;
+        margin-top: 120px;
+    }
+    
+    .process__title{
+        width: 100%;
+        margin: 0 auto;
+    }
+    
+    // -------------- Top --------------
+    
+    .process__content-top{
+        flex-direction: column;
+        justify-content: center;
+        margin-top: 39px;
+    }
+    
+    .process__content-top--left-text{
+        text-align: center;
+        
+        &::before{
+            top: -25px;
+            left: -114px;
+        }
+    }
+    
+    .process__content-top--right-text{
+        margin-top: 56px;
+        margin-right: 114px;
+        text-align: center;
+        
+        &::after{
+            top: -25px;
+            right: -114px;
+        }
+    }
+    
+    // ------------ Bottom ------------
+    
+    .process__content-bottom{
+        flex-direction: column;
+        justify-content: center;
+        margin-top: 46px;
+    }
+    
+    .process__content-bottom--left-text{
+        margin-left: 114px;
+        margin-right: 0;
+        text-align: center;
+        padding-top: 20px;
+        background-image: url('../../images/text-bg-left.png');
+        
+        &::before{
+            content: "";
+            position: absolute;
+            width: 98px;
+            height: 98px;
+            top: -25px;
+            left: -124px;
+            background-image: url('../../images/Avator-bottom-left.png');
+            background-repeat: no-repeat;
+            background-size: contain;
+            background-position: center center;
+        }
+        
+        &::after{
+            display: none;
+        }
+    }
+    
+    .process__content-bottom--right-text{
+        position: relative;
+        padding: 15px 25px 20px 25px;
+        margin-right: 114px;
+        margin-left: 0;
+        margin-top: 56px;
+        background-image: url('../../images/text-bg-right.png');
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center center;
+        text-align: center;
+        
+        &::before{
+            content: "";
+            position: absolute;
+            width: 98px;
+            height: 98px;
+            top: -25px;
+            right: -114px;
+            background-image: url('../../images/Avator-bottom-right.png');
+            background-repeat: no-repeat;
+            background-size: contain;
+            background-position: center center;
+        }
+        
+        &::after{
+            display: none;
+        }
+    }
+    
+    .process__content-link{
+        display: flex;
+        justify-content: center;
+        margin-top: 20px;
+    }
+    
+    .process__content-link--a{
+        display: inline-block;
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 24px;
+        color: #FFFFFF;
+        padding: 15px 30px;
+        background: #02897A;
+        border-radius: 4px; 
+    }
+    
+}
