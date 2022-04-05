@@ -43,11 +43,11 @@
 
 .process__content-top--left-text{
     position: relative;
-    padding: 15px 25px 20px 25px;
+    padding: 15px 25px 30px 25px;
     margin-left: 114px;
     background-image: url('../../images/text-bg-left.png');
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: contain;
     background-position: center center;
     font-weight: 600;
     font-size: 16px;
@@ -70,11 +70,11 @@
 
 .process__content-top--right-text{
     position: relative;
-    padding: 15px 25px 20px 25px;
+    padding: 15px 25px 30px 25px;
     margin-right: 157px;
     background-image: url('../../images/text-bg-right.png');
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: contain;
     background-position: center center;
     font-weight: 600;
     font-size: 16px;
@@ -105,11 +105,11 @@
 
 .process__content-bottom--left-text{
     position: relative;
-    padding: 15px 25px 20px 25px;
+    padding: 15px 25px 30px 25px;
     margin-right: 114px;
     background-image: url('../../images/text-bg-right.png');
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: contain;
     background-position: center center;
     font-weight: 600;
     font-size: 16px;
@@ -132,11 +132,11 @@
 
 .process__content-bottom--right-text{
     position: relative;
-    padding: 15px 25px 20px 25px;
+    padding: 15px 25px 30px 25px;
     margin-left: 114px;
     background-image: url('../../images/text-bg-left.png');
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: contain;
     background-position: center center;
     font-weight: 600;
     font-size: 16px;
@@ -231,9 +231,10 @@
     .process__content-bottom--left-text{
         margin-left: 114px;
         margin-right: 0;
-        text-align: center;
+        text-align: left;
         padding-top: 20px;
         background-image: url('../../images/text-bg-left.png');
+        background-position: left center;
         
         &::before{
             content: "";
@@ -255,15 +256,15 @@
     
     .process__content-bottom--right-text{
         position: relative;
-        padding: 15px 25px 20px 25px;
+        padding: 10px 25px 30px 25px;
         margin-right: 114px;
         margin-left: 0;
         margin-top: 56px;
         background-image: url('../../images/text-bg-right.png');
         background-repeat: no-repeat;
-        background-size: cover;
-        background-position: center center;
-        text-align: center;
+        background-size: contain;
+        background-position: right center;
+        text-align: right;
         
         &::before{
             content: "";
