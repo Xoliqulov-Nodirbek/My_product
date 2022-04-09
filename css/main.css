@@ -4646,15 +4646,23 @@ template {
   color: #ffffff;
 }
 
-.body__dark .question__content-1 {
+.body__dark .question__content-title {
   color: #ffffff;
 }
 
-.body__dark .question__content-2 {
+.body__dark .question__content-text1 {
   color: #ffffff;
 }
 
-.body__dark .question__content-text {
+.body__dark .question__content-text2 {
+  color: #ffffff;
+}
+
+.body__dark .question__content-text3 {
+  color: #ffffff;
+}
+
+.body__dark .question__content-text4 {
   color: #ffffff;
 }
 
@@ -5667,7 +5675,7 @@ template {
   margin-top: -25px;
   background-image: url("../../images/question-before-1.svg");
   background-repeat: no-repeat;
-  background-size: contain;
+  background-size: cover;
   border-radius: 50%;
   border: none;
   cursor: pointer;
@@ -5711,7 +5719,7 @@ template {
   margin-top: -25px;
   background-image: url("../../images/question-before-1.svg");
   background-repeat: no-repeat;
-  background-size: contain;
+  background-size: cover;
   border-radius: 50%;
   border: none;
   cursor: pointer;
@@ -5753,7 +5761,7 @@ template {
   margin-top: -25px;
   background-image: url("../../images/question-before-1.svg");
   background-repeat: no-repeat;
-  background-size: contain;
+  background-size: cover;
   border-radius: 50%;
   border: none;
   cursor: pointer;
@@ -5795,7 +5803,7 @@ template {
   margin-top: -25px;
   background-image: url("../../images/question-before-1.svg");
   background-repeat: no-repeat;
-  background-size: contain;
+  background-size: cover;
   border-radius: 50%;
   border: none;
   cursor: pointer;
