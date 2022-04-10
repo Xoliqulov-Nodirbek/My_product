@@ -506,8 +506,8 @@ template {
   background-color: #3f5561;
   left: 50%;
   bottom: 0;
-  -webkit-transition: all .7s ease;
-  transition: all .7s ease;
+  -webkit-transition: all .8s ease;
+  transition: all .8s ease;
 }
 
 .header__nav-active::after {
@@ -518,8 +518,8 @@ template {
   background-color: #3f5561;
   right: 50%;
   bottom: 0;
-  -webkit-transition: all .7s ease;
-  transition: all .7s ease;
+  -webkit-transition: all .8s ease;
+  transition: all .8s ease;
 }
 
 .header__nav-item:hover > .header__nav-active::before {
@@ -547,8 +547,8 @@ template {
   background-color: #3f5561;
   left: 50%;
   bottom: 0;
-  -webkit-transition: all .7s ease;
-  transition: all .7s ease;
+  -webkit-transition: all .8s ease;
+  transition: all .8s ease;
 }
 
 .header__nav-link::after {
@@ -559,8 +559,8 @@ template {
   background-color: #3f5561;
   right: 50%;
   bottom: 0;
-  -webkit-transition: all .7s ease;
-  transition: all .7s ease;
+  -webkit-transition: all .8s ease;
+  transition: all .8s ease;
 }
 
 .header__nav-item:hover > .header__nav-link::before {
@@ -2089,8 +2089,8 @@ template {
   background-color: #3f5561;
   left: 50%;
   bottom: 0;
-  -webkit-transition: all .7s ease;
-  transition: all .7s ease;
+  -webkit-transition: all .8s ease;
+  transition: all .8s ease;
 }
 
 .header__nav-active::after {
@@ -2101,8 +2101,8 @@ template {
   background-color: #3f5561;
   right: 50%;
   bottom: 0;
-  -webkit-transition: all .7s ease;
-  transition: all .7s ease;
+  -webkit-transition: all .8s ease;
+  transition: all .8s ease;
 }
 
 .header__nav-item:hover > .header__nav-active::before {
@@ -2130,8 +2130,8 @@ template {
   background-color: #3f5561;
   left: 50%;
   bottom: 0;
-  -webkit-transition: all .7s ease;
-  transition: all .7s ease;
+  -webkit-transition: all .8s ease;
+  transition: all .8s ease;
 }
 
 .header__nav-link::after {
@@ -2142,8 +2142,8 @@ template {
   background-color: #3f5561;
   right: 50%;
   bottom: 0;
-  -webkit-transition: all .7s ease;
-  transition: all .7s ease;
+  -webkit-transition: all .8s ease;
+  transition: all .8s ease;
 }
 
 .header__nav-item:hover > .header__nav-link::before {
@@ -4738,8 +4738,8 @@ template {
   background-color: #3f5561;
   left: 50%;
   bottom: 0;
-  -webkit-transition: all .6s ease;
-  transition: all .6s ease;
+  -webkit-transition: all .8s ease;
+  transition: all .8s ease;
 }
 
 .header__nav-active::after {
@@ -4750,8 +4750,8 @@ template {
   background-color: #3f5561;
   right: 50%;
   bottom: 0;
-  -webkit-transition: all .6s ease;
-  transition: all .6s ease;
+  -webkit-transition: all .8s ease;
+  transition: all .8s ease;
 }
 
 .header__nav-item:hover > .header__nav-active::before {
@@ -4779,8 +4779,8 @@ template {
   background-color: #3f5561;
   left: 50%;
   bottom: 0;
-  -webkit-transition: all .7s ease;
-  transition: all .7s ease;
+  -webkit-transition: all 8s ease;
+  transition: all 8s ease;
 }
 
 .header__nav-link::after {
@@ -4791,8 +4791,8 @@ template {
   background-color: #3f5561;
   right: 50%;
   bottom: 0;
-  -webkit-transition: all .7s ease;
-  transition: all .7s ease;
+  -webkit-transition: all 8s ease;
+  transition: all 8s ease;
 }
 
 .header__nav-item:hover > .header__nav-link::before {
@@ -6211,8 +6211,8 @@ template {
   background-color: #3f5561;
   left: 50%;
   bottom: 0;
-  -webkit-transition: all .7s ease;
-  transition: all .7s ease;
+  -webkit-transition: all .8s ease;
+  transition: all .8s ease;
 }
 
 .header__nav-active::after {
@@ -6223,8 +6223,8 @@ template {
   background-color: #3f5561;
   right: 50%;
   bottom: 0;
-  -webkit-transition: all .7s ease;
-  transition: all .7s ease;
+  -webkit-transition: all .8s ease;
+  transition: all .8s ease;
 }
 
 .header__nav-item:hover > .header__nav-active::before {
@@ -6252,8 +6252,8 @@ template {
   background-color: #3f5561;
   left: 50%;
   bottom: 0;
-  -webkit-transition: all .7s ease;
-  transition: all .7s ease;
+  -webkit-transition: all .8s ease;
+  transition: all .8s ease;
 }
 
 .header__nav-link::after {
@@ -6264,8 +6264,8 @@ template {
   background-color: #3f5561;
   right: 50%;
   bottom: 0;
-  -webkit-transition: all .7s ease;
-  transition: all .7s ease;
+  -webkit-transition: all .8s ease;
+  transition: all .8s ease;
 }
 
 .header__nav-item:hover > .header__nav-link::before {
