@@ -506,8 +506,8 @@ template {
   background-color: #3f5561;
   left: 50%;
   bottom: 0;
-  -webkit-transition: all .8s ease;
-  transition: all .8s ease;
+  -webkit-transition: all .5s ease;
+  transition: all .5s ease;
 }
 
 .header__nav-active::after {
@@ -518,8 +518,8 @@ template {
   background-color: #3f5561;
   right: 50%;
   bottom: 0;
-  -webkit-transition: all .8s ease;
-  transition: all .8s ease;
+  -webkit-transition: all .5s ease;
+  transition: all .5s ease;
 }
 
 .header__nav-item:hover > .header__nav-active::before {
@@ -2089,8 +2089,8 @@ template {
   background-color: #3f5561;
   left: 50%;
   bottom: 0;
-  -webkit-transition: all .8s ease;
-  transition: all .8s ease;
+  -webkit-transition: all .5s ease;
+  transition: all .5s ease;
 }
 
 .header__nav-active::after {
@@ -2101,8 +2101,8 @@ template {
   background-color: #3f5561;
   right: 50%;
   bottom: 0;
-  -webkit-transition: all .8s ease;
-  transition: all .8s ease;
+  -webkit-transition: all .5s ease;
+  transition: all .5s ease;
 }
 
 .header__nav-item:hover > .header__nav-active::before {
@@ -4738,8 +4738,8 @@ template {
   background-color: #3f5561;
   left: 50%;
   bottom: 0;
-  -webkit-transition: all .8s ease;
-  transition: all .8s ease;
+  -webkit-transition: all .5s ease;
+  transition: all .5s ease;
 }
 
 .header__nav-active::after {
@@ -4750,8 +4750,8 @@ template {
   background-color: #3f5561;
   right: 50%;
   bottom: 0;
-  -webkit-transition: all .8s ease;
-  transition: all .8s ease;
+  -webkit-transition: all .5s ease;
+  transition: all .5s ease;
 }
 
 .header__nav-item:hover > .header__nav-active::before {
@@ -6211,8 +6211,8 @@ template {
   background-color: #3f5561;
   left: 50%;
   bottom: 0;
-  -webkit-transition: all .8s ease;
-  transition: all .8s ease;
+  -webkit-transition: all .5s ease;
+  transition: all .5s ease;
 }
 
 .header__nav-active::after {
@@ -6223,8 +6223,8 @@ template {
   background-color: #3f5561;
   right: 50%;
   bottom: 0;
-  -webkit-transition: all .8s ease;
-  transition: all .8s ease;
+  -webkit-transition: all .5s ease;
+  transition: all .5s ease;
 }
 
 .header__nav-item:hover > .header__nav-active::before {
